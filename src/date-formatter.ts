@@ -1,6 +1,5 @@
 // ./src/date-formatter.ts
 
-
 /* List of all available parsing tokens
 -----------------------------------------
 Input   Example             Description
@@ -13,9 +12,8 @@ D	      1-31	              Day of month
 DD	    01-31	              Day of month, 2-digits
 */
 
-export function formatDate(format: string, date: Date): string {
-  return "Apr-2-2026"
-  
+export function formatDate (format: string, date: Date): string {
+  return 'Apr-2-2026'
+
   // your code here...
-  
 }
