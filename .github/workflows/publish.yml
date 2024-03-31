@@ -4,8 +4,7 @@ name: Publish a Node.js Package to NPM registry
 
 # Trigger this workflow whenever a new PR is closed on the master branch
 on:
-  pull_request:
-    types: [closed]
+  push:
     branches:
       - master
 
