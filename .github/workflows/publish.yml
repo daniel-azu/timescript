@@ -11,8 +11,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    # run the job, only if the PR was merged successfully
-    if: github.event.pull_request.merged == true
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
